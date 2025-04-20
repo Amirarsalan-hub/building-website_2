@@ -1,0 +1,107 @@
+/* About Us Section */
+body{
+    background-color: #f8ca92;
+    ;
+}
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.about {
+    padding: 50px 20px;
+    background-color : #ffe4c4;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: justify;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Team Section */
+.team {
+    padding: 50px 20px;
+    background-color : #ffe4c4;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.member {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 200px;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member h3 {
+    margin: 10px 0 5px;
+}
+
+.member p {
+    color: #555;
+}
+
+footer{
+    background-color: #ffa333;
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
